@@ -188,7 +188,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 background-size: cover;
-background-position: center;
+background-position: center center;
 background-repeat: no-repeat;
 /* FIX CSS-4: removed padding-top here, main already handles the offset */
 }
@@ -695,9 +695,8 @@ justify-content: center;
 text-align: center;
 min-height: 500px;
 background-size: cover;
-background-position: center top;
+background-position: center center;
 background-repeat: no-repeat;
-background-attachment: fixed;
 margin-top: 80px;
 overflow: hidden;
 }
