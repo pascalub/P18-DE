@@ -75,8 +75,27 @@ font-weight: 800;
 color: #6B4226;
 text-decoration: none;
 }
+.logo {
+display: flex;
+align-items: center;
+gap: 10px;
+text-decoration: none;
+}
 .logo span {
 color: #C9A84C;
+}
+.logo-text {
+font-family: "Playfair Display", serif;
+font-size: 1.3rem;
+font-weight: 800;
+color: #6B4226;
+line-height: 1.2;
+}
+.logo-accent {
+color: #C9A84C;
+}
+@media (max-width: 480px) {
+.logo-text { font-size: 1rem; }
 }
 
 /* ALWAYS-VISIBLE NAV: links always shown, wrap on small screens */
