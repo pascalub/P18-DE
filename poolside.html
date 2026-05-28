@@ -14,7 +14,7 @@
 <body>
 <header class="header" id="header">
 <div class="container nav-wrapper">
-<a href="index.html" class="logo"><img src="logo2.jpg" alt="DE Lounge Inn Logo" style="height:72px;width:220px;object-fit:fill;vertical-align:middle;display:block;"></a>
+<a href="index.html" class="logo"><img src="logo2.jpg" alt="DE Lounge Inn Logo" style="height:56px;width:auto;vertical-align:middle;"></a>
 <nav class="nav-menu" id="navMenu">
 <a href="index.html" class="nav-link">Home</a>
 <a href="rooms.html" class="nav-link">Rooms</a>
@@ -81,10 +81,11 @@
 </div>
 <div class="form-card">
 <h3 class="form-card-title">Book an Event Space</h3>
-<form action="https://formspree.io/f/xojbjldl" method="POST" class="contact-form">
+<form action="https://formspree.io/f/mkoekdzo" method="POST" id="bookingForm" class="contact-form">
+<input type="hidden" name="_subject" value="New Booking Enquiry — DE Lounge Inn">
 <input type="text" name="Your-Name" placeholder="Your Name" required>
 <input type="tel" name="Phone-Number" placeholder="Phone Number" required>
-<input type="email" name="Email-Address" placeholder="Email Address">
+<input type="email" name="_replyto" placeholder="Email Address">
 <select name="Event-Type" required>
 <option value="Pool Party">Pool Party</option>
 <option value="Birthday Bash">Birthday Bash</option>
